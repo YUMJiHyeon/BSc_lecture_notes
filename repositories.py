@@ -64,8 +64,8 @@ GROUP_REPOS = [
     ],
     [
         "group j",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "Chirp Vee2",
+        ["https://github.com/PokingPines/Chirp-Vee2"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
