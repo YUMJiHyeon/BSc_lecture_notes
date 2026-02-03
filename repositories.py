@@ -30,7 +30,7 @@ GROUP_REPOS = [
     [
         "group e",
         "Disaster",
-        ["https://github.com/V0idshock/itu-minitwit-group-e"],
+        ["https://github.com/Itu-DevOps-2026/ITU-MiniTwit"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
