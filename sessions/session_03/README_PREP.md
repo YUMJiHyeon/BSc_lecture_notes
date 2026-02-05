@@ -194,6 +194,38 @@ Bringing machine 'webserver' up with 'virtualbox' provider...
 
 If everything starts error-free, you will find the running _ITU-MiniTwit_ at http://192.168.20.3:5000. With `vagrant ssh webserver` you can access the machine with the frontend code.
 
+Maybe, you observe an error like the following:
+
+```
+/home/user/.vagrant.d/gems/3.3.6/gems/vagrant-vbguest-0.32.0/lib/vagrant-vbguest/hosts/virtualbox.rb:84:in `block in guess_local_iso': undefined method `exists?' for class File (NoMethodError)
+
+            path && File.exists?(path)
+                        ^^^^^^^^
+Did you mean?  exist?
+```
+
+To fix it, we apply a hack. We fix the syntax error in the respective Ruby file in-place.
+Run the following command only once (if in doubt about its meaning, read the man page of `sed`):
+
+```bash
+$ sed -ie 's/File.exists?(path)/File.exist?(path)/g' ~/.vagrant.d/gems/3.3.6/gems/vagrant-vbguest-0.32.0/lib/vagrant-vbguest/hosts/virtualbox.rb
+```
+
+Now, you can run `$ vagrant up` again and the example should start up without any error.
+
+If you wanted to fix the reason for the error without applying a hack, you would have to do the following:
+
+  - Identify the cause of the error, e.g., via [the issue tracker of Vagrant](https://github.com/hashicorp/vagrant/issues/13404)
+    - There you realize that the issue stems not from the Vagrant tool but from the `vagrant-vbguest` plugin.
+    - You realize that the [original plugin (latest version 0.32.0) is not maintained anymore](https://github.com/dotless-de/vagrant-vbguest).
+  - However, somebody [forked the `vagrant-vbguest` plugin](https://github.com/dheerapat/vagrant-vbguest) and fixed the error.
+  - To get, build, and install the updated version in the fork the `vagrant-vbguest` plugin you have to do the following:
+  ```bash
+  $ https://github.com/dheerapat/vagrant-vbguest.git
+  $ cd vagrant-vbguest.git
+  $ gem build vagrant-vbguest.gemspec
+  $ vagrant plugin install vagrant-vbguest-0.32.1.gem
+  ```
 
 
 ## Vagrant on other hosts (MacOS/Windows)
