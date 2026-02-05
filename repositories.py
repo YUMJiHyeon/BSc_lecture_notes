@@ -43,8 +43,8 @@ GROUP_REPOS = [
     ],
     [
         "group g",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "GruppeOG",
+        ["https://github.com/Joakim-David/GruppeOG"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
