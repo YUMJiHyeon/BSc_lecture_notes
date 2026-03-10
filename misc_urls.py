@@ -81,7 +81,7 @@ GROUP_URLS = [
     ],
     [
         "group k",
-        "Devbobs",
+        "DevBobs",
         # Monitoring URL:
         "http://209.38.230.113:3000/",
         # Logging URL:
