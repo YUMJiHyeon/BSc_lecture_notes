@@ -109,7 +109,7 @@ GROUP_URLS = [
         "group m",
         "Jackhammers",
         # Monitoring URL:
-        "178.104.27.224:3000",
+        "http://178.104.27.224:3000",
         # Logging URL:
         "<logging_url>",
     ],
