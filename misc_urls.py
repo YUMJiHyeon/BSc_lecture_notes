@@ -41,9 +41,9 @@ GROUP_URLS = [
     ],
     [
         "group f",
-        "<name>",
+        "Group 1",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://46.101.231.189:3000/d/minitwit-dashboard/itu-minitwit-production?orgId=1&from=now-1h&to=now&timezone=browser&refresh=30s",
         # Logging URL:
         "<logging_url>",
     ],
