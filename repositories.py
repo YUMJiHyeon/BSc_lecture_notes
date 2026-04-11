@@ -24,8 +24,8 @@ GROUP_REPOS = [
         "group d",
         "Mixed",
         ["https://github.com/KaramTNC/itu-minitwit"],
-        "http://46.101.201.186:5001",
-        "http://46.101.201.186:8080",
+        "https://bettertwitter.ninja/",
+        "https://api.bettertwitter.ninja",
     ],
     [
         "group e",
@@ -38,8 +38,8 @@ GROUP_REPOS = [
         "group f",
         "Gruppe 1",
         ["https://github.com/Afab1311/MiniTwit-gruppe1", "https://github.com/sebseb10/ITU-MiniTwit"],
-        "http://46.101.231.189:5001",
-        "http://46.101.231.189:5001",
+        "https://itu-minitwit.duckdns.org/",
+        "https://itu-minitwit.duckdns.org/",
     ],
     [
         "group g",
@@ -66,7 +66,7 @@ GROUP_REPOS = [
         "group k",
         "DevBobs",
         ["https://github.com/DevBobs-devops/Devbobs_MiniTwit"],
-        "http://209.38.230.113:8080",
+        "https://devbobs.tech/",
         "http://209.38.230.113:8080",
     ],
     [

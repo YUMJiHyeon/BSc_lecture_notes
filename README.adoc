@@ -109,14 +109,14 @@ link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/sessio
 |8:00 - 12:00
 |link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_10/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_10/Slides.md[Availability]
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_10/README_EXERCISE.md[A Basic Swarm]
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_10/README_TASKS.md[Isolate components into services/containers/VMs]
+|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_10/README_EXERCISE.md[Scaling with load balancers and high-availabiltiy setup]
+|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_10/README_TASKS.md[Refactor to high-availabiltiy setup]
 // w16
 |11
 |14/4
 |8:00 - 12:00
 |
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/IaC.pdf[Infrastructure as Code]
+|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/IaC.pdf[Docker Swarm and Infrastructure as Code Revisited]
 |link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/README_EXERCISE.md[MiniTwit Infrastructure as Code]
 |link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/README_TASKS.md[Encode your infrastructure setup]
 // w17
