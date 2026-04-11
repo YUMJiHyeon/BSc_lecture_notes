@@ -123,9 +123,9 @@ GROUP_URLS = [
         "group o",
         "NO.1",
         # Monitoring URL:
-        "http://129.212.212.105:3000",
+        "http://129.212.212.105:3000/d/adlfjbs/1st-dashboard?orgId=1&from=now-1h&to=now&timezone=browser",
         # Logging URL:
-        "<logging_url>",
+        "http://129.212.212.105:3000/d/adlfjbs/1st-dashboard?orgId=1&from=now-1h&to=now&timezone=browser",
     ],
     [
         "group p",
