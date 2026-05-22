@@ -3,7 +3,7 @@ GROUP_URLS = [
         "group a",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://46.101.127.217:3000/d/ad26cqj/4181afc?orgId=1&from=2026-04-14T10:09:50.118Z&to=2026-04-14T12:09:50.118Z&timezone=browser&refresh=5m",
         # Logging URL:
         "<logging_url>",
     ],
@@ -11,9 +11,9 @@ GROUP_URLS = [
         "group b",
         "Carl⏰",
         # Monitoring URL:
-        http://165.227.170.149:3000
+        "http://138.68.126.154:3000",
         # Logging URL:
-        "http://165.227.170.149:3000/a/grafana-lokiexplore-app",
+        "http://138.68.126.154:3000/a/grafana-lokiexplore-app",
     ],
     [
         "group c",
@@ -27,9 +27,9 @@ GROUP_URLS = [
         "group d",
         "Mixed",
         # Monitoring URL:
-        "http://46.101.201.186:3000/public-dashboards/20c9bf97ebb94fccb4e1952a5551fb21",
+        "https://grafana.bettertwitter.ninja/dashboards",
         # Logging URL:
-        "<logging_url>",
+        "https://grafana.bettertwitter.ninja/a/grafana-lokiexplore-app/explore",
     ],
     [
         "group e",
@@ -37,7 +37,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://165.227.145.109:3000",
         # Logging URL:
-        "<logging_url>",
+        "http://165.227.145.109:3000/a/grafana-lokiexplore-app",
     ],
     [
         "group f",
@@ -51,7 +51,7 @@ GROUP_URLS = [
         "group g",
         "<name>",
         # Monitoring URL:
-        "http://142.93.169.145:3000",
+        "http://209.38.190.12:3000",
         # Logging URL:
         "<logging_url>",
     ],
@@ -75,17 +75,17 @@ GROUP_URLS = [
         "group j",
         "Chirp Vee2",
         # Monitoring URL:
-        "http://157.245.27.199:3000/d/fegau3n6gywaoa/minitwit-example-dashboard?orgId=1&from=now-30m&to=now&timezone=browser",
+        "http://104.248.28.105:3000/dashboards",
         # Logging URL:
-        "http://157.245.27.199:3000/a/grafana-lokiexplore-app/explore?patterns=%5B%5D&from=now-15m&to=now&timezone=browser&var-lineFormat=&var-ds=loki&var-filters=&var-fields=&var-levels=&var-metadata=&var-jsonFields=&var-all-fields=&var-patterns=&var-lineFilterV2=&var-lineFilters=&var-primary_label=service_name%7C%3D~%7C.%2B",
+        "http://104.248.28.105:3000/a/grafana-lokiexplore-app/explore?patterns=%5B%5D&var-primary_label=service_name%7C%3D~%7C.%2B&from=now-15m&to=now&timezone=browser&var-lineFormat=&var-ds=loki&var-filters=&var-fields=&var-levels=&var-metadata=&var-jsonFields=&var-all-fields=&var-patterns=&var-lineFilterV2=&var-lineFilters=&var-filters_replica=",
     ],
     [
         "group k",
         "DevBobs",
         # Monitoring URL:
-        "http://209.38.230.113:3000/",
+        "http://134.199.190.79:3000/",
         # Logging URL:
-        "http://209.38.230.113:3000/a/grafana-lokiexplore-app/explore",
+        "http://134.199.190.79:3000/a/grafana-lokiexplore-app/explore",
     ],
     [
         "group a",
